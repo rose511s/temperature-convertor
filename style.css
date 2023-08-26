@@ -1,0 +1,87 @@
+body {
+    background-image: url("hi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: auto;
+    margin: 80px 300px 80px 300px;
+    padding: 40px 0 80px 0;
+    background: rgba(232, 132, 132, 0.5);
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+	filter: drop-shadow(0 0 1px #eba9a9);
+    box-shadow: 0px 2px 8px 2px #f8f690;
+}
+
+input[type="number"] {
+    width: 200px;
+    height: 25px;
+}
+
+form {
+    display: block;
+}
+
+.content {
+    display: grid;
+
+    line-height: 40px;
+    font-size: 25px;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(6, 6, 91);
+}
+
+#id_table1 {
+    font-weight: 500;
+    color: rgb(67, 3, 3);
+}
+
+#id_table2 {
+    font-weight: 500;
+    color: rgb(22, 30, 88);
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 27px;
+}
+
+#id_to_unit,
+#id_from_unit {
+    width: 50px;
+    height: 28px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#id_result {
+    background-color: rgba(231, 3, 3, 0.5);
+    color: rgb(255, 255, 255);
+    border-width: 6px;
+    border-color: rgba(251, 67, 67, 0.5);
+    border-style: outset;
+    font-weight: 500;
+}
+
+input[type="submit"] {
+    height: 30px;
+    width: 70px;
+    background-color: rgb(241, 241, 127);
+    font-weight: 300;
+    font-size: 13px;
+    cursor: pointer;
+    border-color: aliceblue;
+    color: rgb(6, 6, 93);
+}
+input[type="submit"]:hover{
+    transform: scale(1.2);
+}
